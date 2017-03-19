@@ -52,13 +52,13 @@ public class Login_activity extends Activity {
 
 
 	private void loginUser() {
-		// TODO Auto-generated method stub
+
 		
 	}
 
 
 	private void forgotPassword() {
-		// TODO Auto-generated method stub
+
 		
 	}
 
@@ -77,13 +77,13 @@ public class Login_activity extends Activity {
 		View.OnClickListener rstTxt= new View.OnClickListener() {
 
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				userName.setText("");
 				passWord.setText("");
 			}
 		};
 		//reset.setOnClickListener(rstTxt);
-		// TODO Auto-generated method stub
+
 		
 	}
 

@@ -103,7 +103,7 @@ public class Manage_Schedule extends ActionBarActivity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				Intent runSchedule = new Intent(getBaseContext(),Run_Scheduler.class);
 				runSchedule.putExtras(bundle);
 				startActivity(runSchedule);
@@ -116,7 +116,7 @@ public class Manage_Schedule extends ActionBarActivity {
 					
 					@Override
 					public void onClick(View v) {
-						// TODO Auto-generated method stub
+
 						alertMessage();
 						
 					}
@@ -131,7 +131,7 @@ public class Manage_Schedule extends ActionBarActivity {
 					
 					@Override
 					public void onClick(View v) {
-						// TODO Auto-generated method stub
+
 						finish();
 					}
 				});

@@ -152,7 +152,7 @@ public class Registration_User extends Activity {
 	}
 
 	private void back2main() {
-		// TODO Auto-generated method stub
+
 		//Add Listener activity
 		View.OnClickListener lsnrback = new View.OnClickListener() {
 			
@@ -170,7 +170,7 @@ public class Registration_User extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				edt_Username.setText("");
 				edt_Password.setText("");
 				edt_verifyPassword.setText("");

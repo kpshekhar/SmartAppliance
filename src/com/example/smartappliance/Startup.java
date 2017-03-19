@@ -125,7 +125,7 @@ public class Startup extends Activity {
 	});
     }
 	
-	// TODO Auto-generated method stub
+
 
 
 	//private void loginUser() {}
@@ -136,13 +136,13 @@ public class Startup extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				
 			}
 		};
 		frgtPaswrd.setOnClickListener(lsnfrgtpwd);
 	
-		// TODO Auto-generated method stub
+
 		
 	}
 
@@ -163,13 +163,13 @@ public class Startup extends Activity {
 		View.OnClickListener rstTxt= new View.OnClickListener() {
 
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				EDTuserName.setText("");
 				EDTpassWord.setText("");
 			}
 		};
 		resetText.setOnClickListener(rstTxt);
-		// TODO Auto-generated method stub
+
 		
 	}
 
@@ -189,18 +189,18 @@ public class Startup extends Activity {
 					Toast.makeText(Startup.this, "NO INTERNET", Toast.LENGTH_SHORT).show();
 				}
 			
-				// TODO Auto-generated method stub
+
 				
 			}
 		};
 		registerUsr.setOnClickListener(rgstusr);
-		// TODO Auto-generated method stub
+
 		
 	}
 	
 	
 	protected void onResume() {
-		// TODO Auto-generated method stub
+
 		super.onResume();
 		
 		EDTuserName.setText("");

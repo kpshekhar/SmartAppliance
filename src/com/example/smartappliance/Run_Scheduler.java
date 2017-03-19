@@ -90,7 +90,7 @@ public class Run_Scheduler extends Activity {
 				Toast.makeText(getBaseContext(), "Please wait for the schedule to generate", Toast.LENGTH_LONG).show();
 				getConnection(userid,ipaddrutil);
 				Toast.makeText(getBaseContext(), "Schedule Received From Utility Server, please go to previous screen to view the Schedule", Toast.LENGTH_SHORT).show();
-				// TODO Auto-generated method stub
+
 				
 			}
 		});
@@ -101,7 +101,7 @@ public class Run_Scheduler extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				Toast.makeText(getBaseContext(), "Please wait for the schedule to generate", Toast.LENGTH_LONG).show();
 				getConnection(userid,ipaddr);
 				
@@ -169,7 +169,7 @@ public class Run_Scheduler extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				
 			}
 		});
@@ -182,7 +182,7 @@ public class Run_Scheduler extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				finish();// TODO Auto-generated method stub
+				finish();
 				
 			}
 		});

@@ -207,7 +207,7 @@ public class Edit_Appliance extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				finish();
 			}
 		});

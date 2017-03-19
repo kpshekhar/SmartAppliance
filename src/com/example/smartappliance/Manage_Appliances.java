@@ -127,7 +127,7 @@ public class Manage_Appliances extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				Intent EditAppliance = new Intent(getBaseContext(),Edit_Appliance.class);
 				bundle.putString("appname",ApplianceList.get(index) );
 				EditAppliance.putExtras(bundle);
@@ -141,7 +141,7 @@ public class Manage_Appliances extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+
 				Intent ViewAppliance = new Intent(getBaseContext(),View_Appliance.class);
 				bundle.putString("appname", ApplianceList.get(index));
 				ViewAppliance.putExtras(bundle);
@@ -188,7 +188,7 @@ public class Manage_Appliances extends Activity {
 
 				@Override
 				public void onNothingSelected(AdapterView<?> arg0) {
-					// TODO Auto-generated method stub
+
 				}
 			});
 			
@@ -213,7 +213,7 @@ public class Manage_Appliances extends Activity {
 				
 				@Override
 				public void onClick(View v) {
-					// TODO Auto-generated method stub
+
 					alertMessage();
 				}
 			});
@@ -256,13 +256,13 @@ public class Manage_Appliances extends Activity {
 	
 	@Override
 	protected void onRestoreInstanceState(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+
 		super.onRestoreInstanceState(savedInstanceState);
 	}
 
 	@Override
 	protected void onResume() {
-		// TODO Auto-generated method stub
+
 		super.onResume();
 		String result = getConnection("http://"+ipaddr+"/getAppliance.php",bundle_username,"");
 		ApplianceList.clear();
@@ -300,7 +300,7 @@ public class Manage_Appliances extends Activity {
 
 				@Override
 				public void onNothingSelected(AdapterView<?> arg0) {
-					// TODO Auto-generated method stub
+
 				}
 			});
 			
