@@ -1,0 +1,143 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:2:1-81:12
+	package
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:19.1.0] /home/pranay/.android/build-cache/dea3e5f60cd331e7847b7560840eec262ada5f3d/output/AndroidManifest.xml:18:5-42
+	android:targetSdkVersion
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+		INJECTED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:13:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:14:22-78
+application
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:17:5-79:19
+MERGED from [com.android.support:appcompat-v7:19.1.0] /home/pranay/.android/build-cache/dea3e5f60cd331e7847b7560840eec262ada5f3d/output/AndroidManifest.xml:19:5-20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:19:9-45
+	android:theme
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:21:9-40
+activity#com.example.smartappliance.Registration_User
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:22:9-25:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:24:13-70
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:23:13-46
+activity#com.example.smartappliance.Login_activity
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:26:9-29:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:27:13-43
+activity#com.example.smartappliance.Activity_Selection
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:30:9-33:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:32:13-71
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:31:13-47
+activity#com.example.smartappliance.Manage_Appliances
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:34:9-37:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:36:13-70
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:35:13-46
+activity#com.example.smartappliance.Add_appliances
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:38:9-41:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:40:13-66
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:39:13-43
+activity#com.example.smartappliance.View_Appliance
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:42:9-45:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:44:13-67
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:43:13-43
+activity#com.example.smartappliance.Edit_Appliance
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:46:9-49:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:48:13-67
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:47:13-43
+activity#com.example.smartappliance.Manage_Schedule
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:50:9-53:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:52:13-68
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:51:13-44
+activity#com.example.smartappliance.Startup
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:54:9-62:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:56:13-59
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:55:13-36
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:57:13-61:29
+action#android.intent.action.MAIN
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:60:27-74
+activity#com.example.smartappliance.TEST
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:63:9-66:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:64:13-33
+activity#com.example.smartappliance.View_Schedule
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:67:9-70:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:69:13-66
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:68:13-42
+activity#com.example.smartappliance.Run_Scheduler
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:71:9-74:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:73:13-66
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:72:13-42
+activity#com.example.smartappliance.View_proposed_schedule
+ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:75:9-78:20
+	android:label
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:77:13-74
+	android:name
+		ADDED from /media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/src/main/AndroidManifest.xml:76:13-51

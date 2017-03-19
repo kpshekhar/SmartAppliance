@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartappliance"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.smartappliance.Registration_User"
+            android:label="@string/title_activity_registration__user" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.Login_activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.Activity_Selection"
+            android:label="@string/title_activity_activity__selection" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.Manage_Appliances"
+            android:label="@string/title_activity_manage__appliances" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.Add_appliances"
+            android:label="@string/title_activity_add_appliances" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.View_Appliance"
+            android:label="@string/title_activity_view__appliance" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.Edit_Appliance"
+            android:label="@string/title_activity_edit__appliance" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.Manage_Schedule"
+            android:label="@string/title_activity_manage__schedule" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.Startup"
+            android:label="@string/title_activity_startup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.TEST"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.View_Schedule"
+            android:label="@string/title_activity_view__schedule" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.Run_Scheduler"
+            android:label="@string/title_activity_run__scheduler" >
+        </activity>
+        <activity
+            android:name="com.example.smartappliance.View_proposed_schedule"
+            android:label="@string/title_activity_view_proposed_schedule" >
+        </activity>
+    </application>
+
+</manifest>

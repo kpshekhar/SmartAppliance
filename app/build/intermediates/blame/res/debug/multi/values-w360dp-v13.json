@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "/home/pranay/.android/build-cache/dea3e5f60cd331e7847b7560840eec262ada5f3d/output/res/values-w360dp/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 54,
+                        "endOffset": 331
+                    }
+                }
+            }
+        ]
+    }
+]

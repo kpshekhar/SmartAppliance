@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartAppliance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration__user">Registration_User</string>
+    <string name="title_activity_activity__selection">Select Activity</string>
+    <string name="title_activity_manage__appliances">Manage Appliances</string>
+    <string name="Appliance_Pick">Select an Appliance</string>
+    <string name="title_activity_add_appliances">Add Appliance</string>
+
+    <string-array name="Constraint_type">
+        <item>Hard</item>
+        <item>Soft</item>
+    </string-array>
+
+    <string name="title_activity_view__appliance">View Appliance</string>
+    <string name="title_activity_edit__appliance">Edit Appliance</string>
+    <string name="title_activity_manage__schedule">Manage Schedule</string>
+    <string name="title_activity_startup">Startup</string>
+    <string name="title_activity_test">TEST</string>
+
+    <!-- Error Messages -->
+    <string name="success_message">Verification was Successful!</string>
+    <string name="username_error_message">Username Not Provided!</string>
+    <string name="password_error_message">Password Not Provided!</string>
+    <string name="minimum_length_error">Please Enter More Than 5 Characters!</string>
+    <string name="passwordmatch_error_message">Passwords Do Not Match!</string>
+    <string name="fName_error_message">First Name Not Provided!</string>
+    <string name="lName_error_message">Last Name Not Provided!</string>
+    <string name="email_error_message">Email Not Provided!</string>
+    <string name="emailpattern_error_message">Email Format Invalid!</string>
+    <string name="phone_error_message">Phone Number Not Provided!</string>
+    <string name="agreement_error_message">You Must Accept the Agreement!</string>
+    <string name="appliance_name_error">Appliance Name not provided!</string>
+    <string name="energy_error">Energy cannot be empty!</string>
+    <string name="operation_time_error">Operation Time cannot be empty!</string>
+    <string name="usr_start_time_error">User Start Time required!</string>
+    <string name="usr_end_time_error">User Deadline Time Required!</string>
+    <string name="time_bounds_error">Time must be less than 2400!</string>
+    <string name="time_interval_error">Time must be a multiple of 5!</string>
+    <string name="start_time_greater_error">End Time lesser than Start time!</string>
+    <string name="constraint_empty_error">Constraint cannot be empty!</string>
+    <string name="constraint_entry_error">Can be HARD or SOFT only!</string>
+    <string name="time_format_error">Invalid Time entered!</string>
+    <string name="title_activity_view__schedule">View Schedule</string>
+    <string name="title_activity_run__scheduler">Scheduler Source Selection</string>
+    <string name="title_activity_view_proposed_schedule">View Proposed Schedule</string>
+
+</resources>
