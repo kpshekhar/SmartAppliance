@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Displaying the Schedule</title>
+</head>
+
+<body>
+<table border="1">
+<caption>Scheduled Values</caption>
+<tr>
+  <th>Appliance Name
+  <th>Scheduled Start Time
+  <th>Scheduled End Time
+  <th>Cost of Operation
+</tr>
+
+<?php
+//Connect To Db
+  $con = mysql_connect("localhost","root","1234");
+
+if (!$con){ die('Could not connect: ' . mysql_error());}
+print ("connected");
+
+/*
+	
+
+  $db = odbc_connect("appliance_db", "root", "1234") or die ("could not connect<br />");
+  //$username = $_POST["username"];
+
+  $stmt = "SELECT `appliancename`,`scheduledstarttime`,`scheduledendtime`,`cost` FROM appliance_db.appliance_data WHERE userid='Shekhar' ORDER BY cost";
+
+  $result = odbc_exec($db, $stmt);
+
+  if ($result == FALSE) die ("could not execute statement $stmt<br />");
+
+  while (odbc_fetch_row($result)) // while there are rows
+  {
+     print "<tr>\n";
+     print "  <td>" . odbc_result($result, "Appliance Name") . "\n";
+     print "  <td>" . odbc_result($result, "Scheduled Start Time") . "\n";
+     print "  <td>" . odbc_result($result, "Scheduled End Time") . "\n";
+     print "  <td>" . odbc_result($result, "Cost of Operation") . "\n";
+     print "</tr>\n";
+  }
+
+  odbc_free_result($result);
+
+  odbc_close($db); */
+?>
+</table>
+</body>
+</html>
