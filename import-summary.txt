@@ -1,0 +1,168 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/media/pranay/Data/College Terms/Fall 2014/Mobile Devices and Big Data/Big_Data_Project_Nikila_Pranay_Prasad/Mobile App/Mobile Files/SmartAppliance
+                          -          -           -       -   -   -                                                 -          -                    
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/workspace.xml
+* app/
+* app/build.gradle
+* app/lint.xml
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/example/
+* app/src/main/java/com/example/smartappliance/
+* app/src/main/java/com/example/smartappliance/Activity_Selection.java
+* app/src/main/java/com/example/smartappliance/Add_appliances.java
+* app/src/main/java/com/example/smartappliance/DATA.java
+* app/src/main/java/com/example/smartappliance/Edit_Appliance.java
+* app/src/main/java/com/example/smartappliance/GetDataFromDB.java
+* app/src/main/java/com/example/smartappliance/Login_activity.java
+* app/src/main/java/com/example/smartappliance/Manage_Appliances.java
+* app/src/main/java/com/example/smartappliance/Manage_Schedule.java
+* app/src/main/java/com/example/smartappliance/Registration_User.java
+* app/src/main/java/com/example/smartappliance/Run_Scheduler.java
+* app/src/main/java/com/example/smartappliance/Startup.java
+* app/src/main/java/com/example/smartappliance/TEST.java
+* app/src/main/java/com/example/smartappliance/Users.java
+* app/src/main/java/com/example/smartappliance/View_Appliance.java
+* app/src/main/java/com/example/smartappliance/View_Schedule.java
+* app/src/main/java/com/example/smartappliance/View_proposed_schedule.java
+* app/src/main/java/com/example/smartappliance/getDataFromDbforScheduler.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/bg.jpg
+* app/src/main/res/drawable-hdpi/black_button.xml
+* app/src/main/res/drawable-hdpi/blue_button.xml
+* app/src/main/res/drawable-hdpi/button_curve.xml
+* app/src/main/res/drawable-hdpi/button_curve_black.xml
+* app/src/main/res/drawable-hdpi/green.jpg
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/red_button.xml
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_activity__selection.xml
+* app/src/main/res/layout/activity_add_appliances.xml
+* app/src/main/res/layout/activity_edit_appliance.xml
+* app/src/main/res/layout/activity_login_activity.xml
+* app/src/main/res/layout/activity_manage__schedule.xml
+* app/src/main/res/layout/activity_manage_appliances.xml
+* app/src/main/res/layout/activity_registration_user.xml
+* app/src/main/res/layout/activity_run__scheduler.xml
+* app/src/main/res/layout/activity_startup.xml
+* app/src/main/res/layout/activity_test.xml
+* app/src/main/res/layout/activity_view__schedule.xml
+* app/src/main/res/layout/activity_view_appliance.xml
+* app/src/main/res/layout/activity_view_proposed_schedule.xml
+* app/src/main/res/layout/spinner_item.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/activity__selection.xml
+* app/src/main/res/menu/add_appliances.xml
+* app/src/main/res/menu/edit__appliance.xml
+* app/src/main/res/menu/login_activity.xml
+* app/src/main/res/menu/manage__appliances.xml
+* app/src/main/res/menu/manage__schedule.xml
+* app/src/main/res/menu/registration__user.xml
+* app/src/main/res/menu/run__scheduler.xml
+* app/src/main/res/menu/startup.xml
+* app/src/main/res/menu/test.xml
+* app/src/main/res/menu/view__appliance.xml
+* app/src/main/res/menu/view__schedule.xml
+* app/src/main/res/menu/view_proposed_schedule.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values-w820dp/
+* app/src/main/res/values-w820dp/dimens.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:19.1.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
